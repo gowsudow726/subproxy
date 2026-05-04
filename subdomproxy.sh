@@ -33,9 +33,9 @@ install_proxy() {
     echo ""
     echo "🌐 Esasy domeni ýaz"
     echo "Mysal:"
-    echo "https://gcp.escglobalworld.ru"
-    echo "https://gcp.escglobalworld.ru:8443"
-    echo "http://gcp.escglobalworld.ru"
+    echo "https://gcp.escglobd.ru"
+    echo "https://gcp.escglobd.ru:8443"
+    echo "http://gcp.escglobad.ru"
     read -rp "Domen: " FRONT_URL
 
     FRONT_PARSED="$(parse_url "$FRONT_URL")"
@@ -51,9 +51,9 @@ install_proxy() {
     echo ""
     echo "🎯 Maksat domeni ýaz"
     echo "Mysal:"
-    echo "https://nasa.nz5.org"
-    echo "https://nasa.nz5.org:800"
-    echo "http://nasa.nz5.org:800"
+    echo "https://nasa.nzadzadf5.org"
+    echo "https://nasa.nzdmsmebxo5.org:800"
+    echo "http://nasa.nz5berminlw.org:800"
     read -rp "Maksat: " TARGET_URL
 
     if [ -z "$TARGET_URL" ]; then
@@ -185,7 +185,7 @@ while true
 do
     echo ""
     echo "=============================="
-    echo " NGINX Mask Proxy Menýu"
+    echo " Dörediji @Mr_Silco sub proxy saýt"
     echo "=============================="
     echo "1. Gurnama et"
     echo "2. Log görkez"
